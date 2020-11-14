@@ -141,6 +141,7 @@
 - [awesome-comment](https://github.com/Blankj/awesome-comment) - 神注释大全
 - [awesome-hacking](https://github.com/carpedm20/awesome-hacking) - 黑客工具箱
 - [awesome-machine-learning](https://github.com/jacksu/machine-learning) - 机器学习资料
+- [awesome-kubernetes-notes](https://github.com/redhatxl/awesome-kubernetes-notes) - kubernetes学习资料
 
 ** 书籍资料 **
 
@@ -181,6 +182,7 @@
 - [iOS-100个开源组件](https://github.com/Aufree/trip-to-iOS)
 - [十大Material Design开源项目](http://code.csdn.net/news/2822753)
 - [Android开源项目分类汇总](https://github.com/Trinea/android-open-project)
+- [The mother of all demo apps](https://github.com/gothinkster/realworld)
 
 ** 前端 & Node.js **
 
@@ -218,16 +220,22 @@
 - [GitHub秘籍](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md)
 - [Git风格指南](https://github.com/agis-/git-style-guide)
 - [Best-App](https://github.com/hzlzh/Best-App)
+- [OSINT:dingba.top](http://dingba.top/), [awesome-osint](https://github.com/jivoi/awesome-osint)
+- 加壳、脱壳工具：Armadillo, ASProtect, Themida, Execryptor, VMProtect, Obsidium
 
 ## 工具篇
 
 ### 平台工具&框架
 
+- 云：Rancher > Kubernetes(k8s) > Docker（镜像库：registry，Harbor，JFrog Artifactory）
 - [Jupyter](http://jupyter.org/): IPython Notebook, 有个子项目sparkmagic，可以和Spark集合在一起，类似spark-notebook项目
 - [Swagger](http://swagger.io/): RESTful API设计工具，前后端分离项目必备，顺便推荐下[Easy Mock](https://www.easy-mock.com/)
 - [Flutter](https://flutter.io/): Google出品，高性能跨平台移动应用开发框架
 - [OpenZipkin](https://zipkin.io/): 分布式Trace系统，可用于分析服务调用链间的消耗
+- [Sentry](https://sentry.io): 系统监控与错误日志跟踪系统
+- 基于Web技术的跨平台应用开发框架：[Revery: facebook基于Reason开发，Native、Fast](https://github.com/revery-ui/revery), [tauri:Rust开发，小而快](https://github.com/tauri-apps/tauri)，[sciter](https://sciter.com/)，[electron](https://github.com/electron/electron)
 - [Phabricator](https://secure.phabricator.com/): 软件开发平台，Facebook出品，现已开源，CodeReview神器（从这个往下一直到GitLab之间的工具统统可以忽略了）
+- [Discourse](https://github.com/discourse/discourse): Stack Overflow的联合创始人 Jeff Atwood 推出的一个新的开源论坛项目，不少开源项目的社区基于这个项目创建
 - Redmine/Trac：项目管理平台
 - Jenkins/Jira(非开源)：持续集成系统（Apache Continuum，这个是Apache下的CI系统，还没来得及研究）
 - git，svn：源代码版本控制系统
@@ -236,6 +244,7 @@
 - Postman:RESTful，api测试工具，HTTP接口开发必备神器；可替代工具：[Insomnia](https://insomnia.rest/)
 - [Lottie](http://airbnb.design/lottie/): AE动画变原生代码，设计师必备
 - Sonar：代码质量管理平台
+- [JMeter](https://jmeter.apache.org/): 测试框架，还有[Locust](https://locust.io/)
 - Nessus: 系统漏洞扫描器
 - gitbook：<https://www.gitbook.io/>写书的好东西，当然用来写文档也很不错的（发现不少产品的文档就是用的它）
 - Travis-ci：开源项目持续集成必备，和GitHub相结合，<https://travis-ci.org/>
@@ -408,7 +417,6 @@
 
 - [Material Design](https://material.io/): 谷歌出品，必属精品
 - Vue.js: 借鉴了Angular及React的JS框架，设计理念较为先进
-- [Sciter](https://sciter.com/): GUI框架，采用自己的HTML/CSS解析器，具有出色的扩展特性和性能，dll压缩后在1~2M
 - [jsplumb](https://github.com/jsplumb/jsplumb): 流程图可视化库
 - [cytoscape.js](https://github.com/cytoscape/cytoscape.js): 关系图谱可视化库
 - [d3](https://github.com/d3/d3): 非常知名的数据可视化库（类似的还有NVD3，P5.js，Highcharts，Echart，Flot等）
@@ -430,7 +438,7 @@
 - jsnice：有趣的js反编译工具，猜压缩后的变量名，http://www.jsnice.org/
 - Zepto.js：移动端替代jQuery的东东，当然也可以使用jquery-mobile.
 - UI框架：Foundation，Boostrap，Pure，EasyUI，Polymer
-- 前段UI设计师必去的几个网站：Dribbble，awwwards，unmatchedstyle，UIMaker
+- 前端UI设计师必去的几个网站：Dribbble，awwwards，unmatchedstyle，UIMaker
 - Mozilla 开发者中心：https://developer.mozilla.org/en-US/
 - 图标资源：IcoMoon（我的最爱），Font Awesome, Themify Icons，FreePik，Glyphicons
 - artDialog:非常漂亮的对话框
